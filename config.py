@@ -41,7 +41,7 @@ BOTS = [
         },
         "auto_del": 600,
         "messages": DEFAULT_MESSAGES,
-        "admins": [],                    # <-- extra admin Telegram user IDs, e.g. [111111111, 222222222]
+        "admins": [8516933880],                    # <-- extra admin Telegram user IDs, e.g. [111111111, 222222222]
         "disable_btn": True,
         "protect": False
     }
