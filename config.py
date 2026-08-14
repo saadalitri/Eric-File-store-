@@ -5,7 +5,7 @@ import os
 LOG_FILE_NAME = "bot.log"
 PORT = 8091
 URL = ""
-OWNER_ID = 8516933880,8516933880      # <-- apna Telegram user ID daalo (number, quotes ke bina)
+OWNER_ID = 8516933880     # <-- apna Telegram user ID daalo (number, quotes ke bina)
 MSG_EFFECT = 0
 
 DEFAULT_MESSAGES = {
@@ -41,7 +41,7 @@ BOTS = [
         },
         "auto_del": 600,
         "messages": DEFAULT_MESSAGES,
-        "admins": [8516933880],                    # <-- extra admin Telegram user IDs, e.g. [111111111, 222222222]
+        "admins": [8536019525],                    # <-- extra admin Telegram user IDs, e.g. [111111111, 222222222]
         "disable_btn": True,
         "protect": False
     }
