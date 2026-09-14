@@ -24,7 +24,7 @@ DEFAULT_MESSAGES = {
 BOTS = [
     {
         "session": "mybot",                                       # <-- session name (koi bhi unique naam, e.g. "mainbot")
-        "token": "8735710065:AAFY9kzuldXyds_I1Uq3O73OqVcZ-MJskFA",  # <-- @BotFather se mila token
+        "token": "8893037363:AAEPzdTO9TIf6tWWwII716qy1ZsdtKsjUVQ",  # <-- @BotFather se mila token
         "api_id": 4216194,                                        # <-- my.telegram.org se mila API ID (number)
         "api_hash": "bcb1507e45dcc4ce24444d824b4cf48d",            # <-- my.telegram.org se mila API HASH
         "workers": 8,
