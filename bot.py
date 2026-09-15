@@ -33,8 +33,13 @@ class Bot(Client):
         disable_btn = config.get("disable_btn", True)
 
         super().__init__(
-            name=session, api_hash=api_hash, api_id=api_id,
-            plugins={"root": "plugins"}, workers=workers, bot_token=token
+    name=session,
+    api_hash=api_hash,
+    api_id=api_id,
+    plugins={"root": "plugins"},
+    workers=workers,
+    bot_token=token,
+    in_memory=True
         )
         self.LOGGER = LOGGER
         self.raw_config = config
